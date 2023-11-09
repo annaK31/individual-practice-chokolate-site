@@ -1,0 +1,283 @@
+body{
+    font-family: Montserrat, sans-serif;
+    color: #111;
+    background: #FAFAFA;
+}
+.list{
+    list-style-type: none;
+}   
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+
+
+/* Header*/
+.logo-link{
+ color: currentColor;
+ font-size: 18px;
+ font-weight: 700;
+ line-height: 1.11;
+ letter-spacing: -0.03em;
+}
+.menu-link{
+    color: currentColor;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #FD9222;
+}
+
+/*Hero*/
+.hero-title{
+color: #FFF;
+font-size: 28px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: -0.03em;
+/* delete background*/
+background-color: aqua;
+}
+.button-buy{
+    background-color: #FD9222;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.button-buy:hover,
+.button-buy:focus{
+    background-color: #FCF1E0;
+    color: #FD9222;
+}
+
+.how-made-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    background-color: aqua;
+}
+.how-made-link:hover,
+.how-made-link:focus{
+    background-color: #fff;
+    border: 1px solid #FD9222;
+    color: #FD9222;
+}
+.scroll-down-link{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+    background-color: aqua;
+}
+.scroll-down-link:hover,
+.scroll-down-link:focus{
+  color:  #FD9222;
+}
+
+
+/*Benefits*/
+.section-benefits{
+    background: #1E1823;
+}
+.benefit{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+.benefit-text{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+}
+
+/*Tastes*/
+.tastes-title{
+color: #111;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.16;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+.taste{
+    color:  #FD9222;
+}
+.tastes-text{
+color: #111;
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+letter-spacing: -0.02em;
+}
+.taste-milk-chokolate-card{
+    border-radius: 15px;
+background: #FD9222;
+}
+.taste-milk-semi-sweet-chokolate{
+    border-radius: 15px;
+    border: 1px solid #FD9222;  
+}
+.taste-nuts-card{
+  border-radius: 15px;
+  background-color: #1E1823;
+}
+.taste-card-title{
+    color: #111;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+/*How it is made*/
+  .how-made-title{
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+     text-transform: uppercase;
+  }
+.made{
+     color: #FD9222;
+}
+.recipe-title{
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33em;
+}
+
+.recipe-text{
+color: #111;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28em;
+letter-spacing: -0.02em;
+}
+.review-title{
+   color: #FD9222;
+text-align: center;
+font-size: 24px;
+font-weight: 600;
+line-height: 1.16;
+letter-spacing: -0.03em;
+text-transform: uppercase; 
+}
+.is-lover{
+    color: #111;
+}
+
+/*Reviews*/
+.review-card-list{
+border-radius: 15px;
+border: 1px solid rgba(17, 17, 17, 0.10);
+box-shadow: 0px 9.04932px 100px 0px rgba(17, 17, 17, 0.03);
+}
+.name-review{
+    color: #111;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33em;
+}
+.review-text{
+    color: rgba(17, 17, 17, 0.70);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+letter-spacing: -0.02em;
+}
+.leave-a-review-link{
+    color: currentColor;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 100px;
+    border: 1px solid #FD9222;
+}
+.leave-a-review-link:hover,
+.leave-a-review-link:focus{
+    background-color: #FD9222;
+    color: #FFF;
+}
+
+
+/*Footer*/
+.footer-text{
+color: #FD9222;
+font-size: 28px;
+font-weight: 500;
+line-height: 1.21;
+letter-spacing: -0.02em;
+}
+.footer-text-slogan{
+    color: #FFF;
+}
+.section-footer{
+    background-color: #1E1823;
+}
+.nav-link-footer{
+color: #FFF;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: -0.02em;
+}
+.nav-link-footer:hover,
+.nav-link-footer:focus{
+    color: #FD9222;
+}
+.contacts-title{
+color: #FFF;
+text-align: center;
+font-size: 14px;
+font-weight: 500;
+line-height: 1.28em;
+}
+.contact-link{
+color: #FFF;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28;
+letter-spacing: -0.02em;
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: #FD9222;
+}
+.button-subscribe{
+    border-radius: 100px;
+    background: #FD9222;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+
+
+
+
