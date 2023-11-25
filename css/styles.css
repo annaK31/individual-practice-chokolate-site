@@ -625,7 +625,7 @@ transition: color 250ms linear;
     border: 1px solid #FD9222;
     color: #FD9222;
 }
-.footer-text-contacts{
+.footer-top-block{
     display: flex;
     justify-content: space-between; 
     margin-bottom: 78px;
@@ -654,7 +654,7 @@ transition: color 250ms linear;
     align-items: center;
 }
 
-.nav-button-footer{
+.footer-bottom-block{
     display: flex;
     align-items: center;
     justify-content: space-between;
