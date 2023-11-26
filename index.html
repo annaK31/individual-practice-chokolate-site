@@ -67,7 +67,7 @@
     </div>
 </section>
 
-   <!--Benefits-->
+                                <!--Benefits-->
 
 <section id="benefits" class="section-benefits section">
     <div class="container">
@@ -107,7 +107,7 @@
     </div>
 </section>
 
-     <!--Tastes-->
+                                      <!--Tastes-->
 
 <section class="section section-tastes">
     <div class="container">
@@ -270,5 +270,60 @@ exceptional taste sensation.</p>
         </div>
     </section>
 </footer>
+                        <!--MODAL WINDOW-->
+<div class="form-review-wrapper backdrop">
+    <div class="form-content-box">
+      <div class="form-review-title-btn-close-box">
+    <p class="form-review-title">leave a review about <span class="form-review-title-span">our chokolate</span></p>                  
+    <button class="btn-close-form-review" type="button">
+        <svg class="icon-x-close" width="28" height="28">
+            <use href="./images/icons_chokolate.svg#icon-x-close"></use>
+        </svg>
+    </button>
+</div>
+    <form class="form-reviews" name="form-reviews" autocomplete="off" novalidate>
+        <div class="label-input-box">
+       <label class="label-form-review" for="user-name">Name </label>
+         <div class="input-form-review-box">
+           <input class="input-form-review" type="text" name="user-name" id="user-name" >
+           <svg class="icon-input-form" width="24" height="24">
+            <use href="./images/icons_chokolate.svg#icon-user"></use>
+           </svg>
+         </div></div>
+         <div class="label-input-box" >
+       <label class="label-form-review" for="user-email">Email</label>
+          <div class="input-form-review-box">
+       <input class="input-form-review" type="email" name="user-email" id="user-email">
+            <svg class="icon-input-form" width="24" height="24">
+                <use href="./images/icons_chokolate.svg#icon-mail"></use>
+            </svg></div></div>
+            <div class="label-input-box" >
+       <label class="label-form-review" for="user-phone">Phone number</label>
+          <div class="input-form-review-box">
+       <input class="input-form-review" type="tel" name="user-phone" id="user-phone">
+            <svg class="icon-input-form" width="24" height="24">
+                <use href="./images/icons_chokolate.svg#icon-phone"></use>
+            </svg></div></div>
+            <div  class="label-input-box">
+       <label class="label-form-review" for="user-comment">Comment</label>
+          <textarea class="textarea-field" name="user-comment" id="user-comment" placeholder="Enter text"></textarea>
+        </div>
+        <div class="form-div-checkbox">
+    <input class="visually-hidden input-form-checkbox" id="user-privacy" type="checkbox" name="user-privacy"
+        value="true">
+    <label class="form-label-checkbox" for="user-privacy">
+        <span class="form-span-checkbox">
+            <svg class="icon-checkbox" width="10" height="9.5">
+                <use href="./images/icons_chokolate.svg#icon-small_angel"></use>
+            </svg>
+        </span>I accept the terms and conditions of the
+        <a class="link-user-privacy" href="" target="_blank">Privacy Policy</a></label>
+</div>
+        <button class="button-form-review" type="submit">Send</button>
+    </form>
+ </div>                  
+</div>
+
+
 </body>
 </html>
