@@ -271,46 +271,44 @@ exceptional taste sensation.</p>
     </section>
 </footer>
                         <!--MODAL WINDOW-->
-<div class="form-review-wrapper backdrop">
+<div class="backdrop is-open">
     <div class="form-content-box">
-      <div class="form-review-title-btn-close-box">
     <p class="form-review-title">leave a review about <span class="form-review-title-span">our chokolate</span></p>                  
     <button class="btn-close-form-review" type="button">
-        <svg class="icon-x-close" width="28" height="28">
+        <svg class="icon-x-close" width="28" height="28" aria-label="icon slose ">
             <use href="./images/icons_chokolate.svg#icon-x-close"></use>
         </svg>
     </button>
-</div>
     <form class="form-reviews" name="form-reviews" autocomplete="off" novalidate>
         <div class="label-input-box">
        <label class="label-form-review" for="user-name">Name </label>
          <div class="input-form-review-box">
-           <input class="input-form-review" type="text" name="user-name" id="user-name" >
-           <svg class="icon-input-form" width="24" height="24">
+           <input class="input-form-review" id="user-name" name="user-name" type="text"  title="Anna" required>
+           <svg class="icon-input-form" width="24" height="24" aria-label="icon user">
             <use href="./images/icons_chokolate.svg#icon-user"></use>
            </svg>
          </div></div>
          <div class="label-input-box" >
        <label class="label-form-review" for="user-email">Email</label>
           <div class="input-form-review-box">
-       <input class="input-form-review" type="email" name="user-email" id="user-email">
-            <svg class="icon-input-form" width="24" height="24">
+       <input class="input-form-review" id="user-email" name="user-email" type="email"  title="email@gmail.com" required>
+            <svg class="icon-input-form" width="24" height="24" aria-label="icon email">
                 <use href="./images/icons_chokolate.svg#icon-mail"></use>
             </svg></div></div>
             <div class="label-input-box" >
        <label class="label-form-review" for="user-phone">Phone number</label>
           <div class="input-form-review-box">
-       <input class="input-form-review" type="tel" name="user-phone" id="user-phone">
-            <svg class="icon-input-form" width="24" height="24">
+       <input class="input-form-review" id="user-phone" name="user-phone"  type="tel"  title="+380000000000" required>
+            <svg class="icon-input-form" width="24" height="24" aria-label="icon-phone">
                 <use href="./images/icons_chokolate.svg#icon-phone"></use>
             </svg></div></div>
             <div  class="label-input-box">
        <label class="label-form-review" for="user-comment">Comment</label>
-          <textarea class="textarea-field" name="user-comment" id="user-comment" placeholder="Enter text"></textarea>
+          <textarea class="textarea-field" id="user-comment" name="user-comment" placeholder="Enter text" required></textarea>
         </div>
         <div class="form-div-checkbox">
-    <input class="visually-hidden input-form-checkbox" id="user-privacy" type="checkbox" name="user-privacy"
-        value="true">
+    <input class="visually-hidden input-form-checkbox" id="user-privacy"  name="user-privacy" type="checkbox"
+        value="true" required>
     <label class="form-label-checkbox" for="user-privacy">
         <span class="form-span-checkbox">
             <svg class="icon-checkbox" width="10" height="9.5">
