@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Web site about chocolate products">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simply chokolate</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
@@ -20,17 +21,21 @@
 <header class="page-header">
     <div class="container container-header">
 <nav class="page-nav">
-    <a  class="logo-link" href="./index.html"><i>SIMPLY</i> CHOCOLATE
-        <svg class="icon-logo" width="24" height="24" aria-label="icon logo">
+    <a  class="logo-link" href="./index.html"><i>SIMPLY</i>CHOCOLATE
+        <svg class="icon-logo" width="21" height="21" aria-label="icon logo">
         <use href="./images/icons_chokolate.svg#icon-chocolate_logo">
         </use></svg></a>
-    
     <ul class="menu list">
         <li class="menu-item"><a class="menu-link" href="./index.html">Home</a></li>
         <li class="menu-item"><a class="menu-link" href="#how-it’s-made">How it’s made?</a></li>
         <li class="menu-item"><a class="menu-link" href="#chocolate-is-loved">Chocolate is loved</a></li>
     </ul>
 </nav>
+<button class="button-burger"  type="button">
+        <svg class="icon-burger" width="28" height="28">
+            <use href="./images/icons_chokolate.svg#icon-burger"></use>
+        </svg>
+    </button>
 <ul class="list social-list">
 <li>
     <a class="social-link"  href=""><svg class="icon-social-link" width="24" height="24" aria-label="icon instagram">
@@ -46,21 +51,58 @@
 </li>
 </ul>
 </div>
+
+<div class="wrapper-menu-mob ">
+<div class="container container-mobile-menu">
+    <button class="bth-close-menu-mob" type="button">
+        <svg width="28" height="28" aria-label="icon close menu mobile">
+            <use href="./images/icons_chokolate.svg#icon-x-close"></use>
+        </svg>
+    </button>
+    <ul class="list list-menu-mob">
+        <li>
+           <a class="link-item-menu-mob" href="./index.html"><span class="orange-color">Home</span></a>
+        </li>
+        <li>
+            <a class="link-item-menu-mob" href="">How it’s made?</a>
+        </li>
+        <li>
+            <a class="link-item-menu-mob" href="">Chocolate is loved</a>
+        </li>
+    </ul>
+    <ul class="list social-link-list-menu-mob">
+        <li>
+            <a class="social-link-menu-mob">
+                <svg  width="22" height="22" aria-level="icon instagram">
+                    <use href="./images/icons_chokolate.svg#icon-instagram">
+                    </use>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a class="social-link-menu-mob">
+                <svg width="22" height="22" aria-level="icon twitter">
+                    <use href="./images/icons_chokolate.svg#icon-twitter"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
 </header>
 
 <main>
 
-    <!--Hero-->
 
 <section class="section-hero">
-    <div class="container">
-        
+    <div class="container-hero">
     <h1 class="hero-title">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</h1>
-    <div class="hero-btn-block">
+    <div class="hero-btn-wrapper">
+        <div class="hero-btn-block">
     <button  class="button-buy" type ="button">Buy now</button>
     <a class="how-made-link"  href="#how-it’s-made">How it’s made</a>
-    
-    <a class="scroll-down-link"  href="#benefits">scroll down<svg class="icon-scroll-down" width="22" height="22">
+    </div>
+    <a class="scroll-down-link"  href="#benefits">scroll down<svg class="icon-scroll-down" width="16" height="16">
             <use href="./images/icons_chokolate.svg#icon-scroll-down"></use>
         </svg></a> </div>
         
@@ -71,10 +113,11 @@
 
 <section id="benefits" class="section-benefits section">
     <div class="container">
-        
+        <div class="benefits-wrapper">
     <h2 class="visually-hidden">Our Benefits</h2>
+    
     <ul class="list list-benefits">
-        <li class="behefit-item current-benefits">
+        <li class="benefit-item current-benefits">
             <div class="icon">
             <svg class="icon-benefits" width="32" height="32">
             <use href="./images/icons_chokolate.svg#icon-chocolate"></use></svg></div>
@@ -83,7 +126,7 @@
     simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of
     chocolate bliss.</p>
         </li >
-        <li class="behefit-item current-benefits">
+        <li class="benefit-item current-benefits">
             <div class="icon">
             <svg class="icon-benefits" width="32" height="32">
                 <use href="./images/icons_chokolate.svg#icon-dollar"></use>
@@ -93,7 +136,7 @@
             Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and
             indulge in affordable luxury today.</p>
         </li>
-        <li  class="behefit-item">
+        <li  class="benefit-item">
             <div class="icon">
             <svg class="icon-benefits" width="32" height="32">
                 <use href="./images/icons_chokolate.svg#icon-spoon"></use>
@@ -104,6 +147,7 @@
              </p>
         </li>
     </ul>
+</div>
     </div>
 </section>
 
@@ -111,13 +155,18 @@
 
 <section class="section section-tastes">
     <div class="container">
-   <h2 class="tastes-title">it all adds up to one exceptional <span class="taste">taste</span> sensation</h2>
+   <h2 class="tastes-title">it all adds up to one exceptional <span class="orange-color">taste</span> sensation</h2>
    <p class="tastes-text">At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the
 finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one
 exceptional taste sensation.</p>
+
 <ul class="list list-tastes">
+    
     <li class="item-taste-card">
-        <img class="tastes-img" src="./images/ingridients/chokolate.png" alt="chocolate" width="206" height="160">
+
+       <img srcset="./images/ingridients/chokolate_desk_1x.png 1x, 
+       ./images/ingridients/chokolate_desk_2x.png 2x"
+       src="./images/ingridients/chokolate_desk_1x.png" alt="chocolate taste" width="224" height="171" >
         <h3 class="taste-card-title">milk chokolate</h3>
         <div class="overlay">
             <h3 class="title-overlay">milk chocolate</h3>
@@ -130,7 +179,9 @@ exceptional taste sensation.</p>
             milk chocolate is sold in the United States and Europe.</p></div>
     </li>
     <li class="item-taste-card">
-        <img  class="tastes-img" src="./images/ingridients/bottle_of_milk.png" alt="milk" width="206" height="160">
+        <img srcset="./images/ingridients/bottle_of_milk_desk_1x.png 1x, 
+               ./images/ingridients/bottle_of_milk_desk_2x.png 2x" src="./images/ingridients/bottle_of_milk_desk_1x.png"
+            alt="bottle of milk" width="224" height="171">
         <h3 class="taste-card-title" >milk</h3>
         <div class="overlay">
             <h3 class="title-overlay">milk</h3>
@@ -144,7 +195,9 @@ exceptional taste sensation.</p>
         </div>
     </li>
     <li class="item-taste-card" >
-        <img class="tastes-img"  src="./images/ingridients/nuts.png" alt="nuts" width="206" height="160">
+        <img srcset="./images/ingridients/nuts_1x.png 1x, 
+            ./images/ingridients/nuts_desk_2x.png 2x"
+            src="./images/ingridients/nuts_1x.png" alt="nuts" width="224" height="171">
         <h3  class="taste-card-title">nuts</h3>
         <div class="overlay">
             <h3 class="title-overlay">nuts</h3>
@@ -158,7 +211,9 @@ exceptional taste sensation.</p>
         </div>
     </li>
     <li class="item-taste-card">
-        <img  class="tastes-img" src="./images/ingridients/semi-sweet-chocolate.png" alt="semi-sweet chokolate" width="206" height="160">
+        <img srcset="./images/ingridients/semi_sweet_chocolate_desk_1x.png 1x, 
+             ./images/ingridients/semi_sweet_chocolate_desk_2x.png 2x" src="./images/ingridients/semi_sweet_chocolate_desk_1x.png" alt="nuts" width="224"
+            height="171">
         <h3  class="taste-card-title">semi - sweet chokolate</h3>
         <div class="overlay">
             <h3 class="title-overlay">semi - sweet chocolate</h3>
@@ -179,9 +234,14 @@ exceptional taste sensation.</p>
 
 <section class="section" id="how-it’s-made">
     <div class="container">
-    <h2 class="how-made-title">how it’s <span class="made-span">made?</span></h2>
+    <h2 class="how-made-title">how it’s <span class="orange-color">made?</span></h2>
    <div class="how-made-content-wrapper">
-    <img class="how-made-img"  src="./images/section_recipe/image-produsing.jpg" alt="photo of chocolate production" width="600" height="400">
+    <picture class="recipe-img">
+        <source srcset="./images/section_recipe/image_recipe_desk_1x.jpg 1x, ./images/section_recipe/image_recipe_desk_2x.jpg 2x" media="(min-width: 1168px)" />
+        <source srcset="./images/section_recipe/image_recipe_tab_1x.jpg 1x, ./images/section_recipe/image_recipe_tab_2x.jpg  2x" media="(min-width: 768px)" />
+        <source srcset="./images/section_recipe/image_recipe_mob_1x.jpg 1x, ./images/section_recipe/image_recipe_mob_2x.jpg 2x" media="(max-width: 767px)"/>
+        <img src="./images/section_recipe/image_recipe_mob_1x.jpg"   alt="Produsing of chocolate" />
+    </picture>
    <div  class="how-made-text-wrapper">
     <h3 class="how-made-list-title">Try our chocolates today and discover the perfect balance of flavor</h3>
     <ul class="how-made-list">
@@ -208,7 +268,7 @@ exceptional taste sensation.</p>
 </section>
 
         <!--Reviews-->
-
+<!--
 <section class="section reviews" id="chocolate-is-loved">
     <div class="container">
     <h2  class="review-title">chocolate <spa class="is-lover">is loved</spa></h2>
@@ -235,23 +295,23 @@ exceptional taste sensation.</p>
     </div>
 </section>
 </main>
-
+-->
        <!--Footer-->
 
 <footer>
     <section class="section section-footer">
         <div class="container container-footer">
             <div class="footer-top-block current-footer">
-        <p class="footer-text">Chocolate <span class="footer-text-slogan">a delicious cure for a bad day</span></p>   
+            <p class="footer-text"><span class="orange-color">Chocolate</span> a delicious cure for a bad day</p>   
         <div class="contacts-position">
-        <h2 class="contacts-title">Contact us</h2>
-         
-        <address>
+          <h2 class="contacts-title">Contact us</h2>
+          <address>
            <ul class="list"> 
             <li><a  class="contact-link" href="tel:+380684439426" target="_blank">+380 (68) 443-94-26</a></li>
             <li><a  class="contact-link" href="mailto:simplychoc@gmail.com" target="_blank">simplychoc@gmail.com</a></li>
            </ul> 
-        </address></div>
+        </address>
+         </div>
        </div>
        <div class="footer-bottom-block">
         <nav class="nav-footer">
@@ -270,8 +330,10 @@ exceptional taste sensation.</p>
         </div>
     </section>
 </footer>
+
                         <!--MODAL WINDOW-->
-<div class="backdrop is-open">
+<!--
+<div class="backdrop">
     <div class="form-content-box">
     <p class="form-review-title">leave a review about <span class="form-review-title-span">our chokolate</span></p>                  
     <button class="btn-close-form-review" type="button">
@@ -321,7 +383,7 @@ exceptional taste sensation.</p>
     </form>
  </div>                  
 </div>
-
+-->
 
 </body>
 </html>
