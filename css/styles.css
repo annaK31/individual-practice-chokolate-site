@@ -33,7 +33,6 @@ p {
 
 img {
     display: block;
-    width: 100%;
 }
 .orange-color{
     color: #FD9222;
@@ -786,7 +785,9 @@ width: 291px;
         gap: 24px;
     }
 }
+
 /*=======================================REVIEWS============================*/
+
 .review-title{
     color: #111;
     text-align: center;
@@ -795,7 +796,7 @@ width: 291px;
     line-height: 1.2;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 74px;
 }
 .button-leave-review{
     color: #111;
@@ -827,44 +828,97 @@ width: 291px;
 .icon-scroll-elipse-reviews{
     fill: rgba(17, 17, 17, 0.10);
 }
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1168px){
+.review-list-item{
+    width: 335px;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+    padding: 56px 18px 42px 18px;
+     position: relative;
+}
+.photo-review{
+    position: absolute;
+    top: -42px;
+    left: 132px;
+    z-index: 999;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.name-review{
+    text-align: center;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.33;
+margin-bottom: 24px;
+}
+.review-text{
+    color: rgba(17, 17, 17, 0.70);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+.review-for-scroll-1{
+    display: none;
+}
+.review-for-scroll-2 {
+    display: none;
+}
+.reviews-list{
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 768px){
+    .review-title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.16;
+        margin-bottom: 91px;
+    }
+    .review-list-item {
+        width: 344px;
+        padding: 56px 16px 42px 16px;
+    }
+    .reviews-list {
+        margin-bottom: 32px;
+        display: flex;
+        gap: 16px;
+    }
+    .review-for-scroll-1{
+       display: block;
+    }
+    .button-leave-review {
+            font-size: 18px;
+            border-radius: 100px;
+            padding: 14px 40px;
+            display: block;
+            margin: auto;
+            min-width: 222px;
+    }
+    .scroll-block-reviews {
+            margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 1168px){
+    .review-list-item {
+        width: 360px;
+        padding: 56px 24px 24px 24px;
+    }
+    .reviews-list {
+            margin-bottom: 50px;
+            display: flex;
+            gap: 28px;
+        }
+    .review-for-scroll-2{
+        display: block;
+    }
+    .reviews-list {
+        margin-bottom: 50px;
+    }
+    .scroll-block-reviews{
+        display: none;
+    }
+}
 
 /*=============================FOOTER===============================*/
 
@@ -1182,6 +1236,7 @@ margin-bottom: 14px;
     border-radius: 6px;
     border: 1px solid rgba(17, 17, 17, 0.14);
     display: inline-flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -1199,6 +1254,8 @@ margin-bottom: 14px;
     font-weight: 400;
     line-height: 1.33;
     letter-spacing: -0.02em;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .link-user-privacy {
     text-decoration: underline;
